@@ -8,7 +8,7 @@ ingredient_4 = "sugar"
 
 def print_ingredients():
     ingredients = f"{ingredient_1} {ingredient_2} {ingredient_3} {ingredient_4}"
-    print(ingredient_1, ingredient_2, ingredient_3, ingredient_4)
+    print(ingredient_1 + " " + ingredient_2 + " " + ingredient_3 + " " + ingredient_4)
     print("milk eggs flour sugar")
     print(ingredients)
 
