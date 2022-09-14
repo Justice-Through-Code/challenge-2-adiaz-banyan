@@ -30,9 +30,9 @@ confirm_ingredients()
 
 def favorite_bake():
 
-    baked_good = input("What is your favorite baked good?")
+    baked_good = "brownie"
 
-    frequency = input(f"Roughly how many times a month do you eat {baked_good}s?")
+    frequency = "4"
 
     print(type(frequency))
 
